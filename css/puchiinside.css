@@ -1,0 +1,15 @@
+.jsPopWindow .response_area .right_area .jsBuyBtn, 
+#jsLessonComplete .jsEtcLessonBtnSmall, 
+#lesson_stop_comp_panel .jsEtcLessonBtnSmall,
+#jsLessonComplete .jsAgainLessonBtn,
+#lesson_stop_comp_panel .jsAgainLessonBtn,
+#jsLessonComplete .jsToTopBtn, 
+#lesson_stop_comp_panel .jsToTopBtn{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/6.png') !important;
+}
+
+.jsPopWindow .response_area .left_area .jsNotBuyBtn, #lesson_stop_comp_panel .jsToTopBtn
+{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/9.png') !important;
+}
+

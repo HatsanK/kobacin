@@ -1,0 +1,9 @@
+.button_event_battle, .button_event_battle_1, .button_event_battle_2, .button_event_battle_3, .button_event_battle_4,
+.button_event_area{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/talkbattle/1.png') !important;
+}
+
+
+#talkBattleButton input[type="submit"], .talkUseItem .recoveryBtn{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/talkbattle/2.png') !important;
+}

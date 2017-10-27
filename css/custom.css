@@ -1,0 +1,91 @@
+.bg_main_menu li a, .btn_change_def_atk, .btn_change_atk_def,.btn_production_status_mypage,.btn_cheer_history_status_mypage {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/1.png') !important;
+}
+.title_icon,.user_status_list li ul, .user_status_list li.icon_00:after, .user_status_list li.icon_01:after, .user_status_list li.icon_02:after, .user_status_list li.icon_03:after, .user_status_list li.icon_04:after
+, .user_status_list li.icon_05:after, .text_tags, .bg_popup_top {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/2.png') !important;
+}
+.area_menu_header_6btn .head_menu_01, .area_menu_header_6btn .head_menu_02, .area_menu_header_6btn .head_menu_03, .area_menu_header_6btn .head_menu_04
+, .area_menu_header_6btn .head_menu_05, .area_menu_header_6btn .head_menu_06,  .headerPopupMenu .btn_menu_header_lesson, .headerPopupMenu .btn_menu_header_work
+, .headerPopupMenu .btn_menu_header_livebattle, .headerPopupMenu .btn_menu_header_deck, .headerPopupMenu .btn_menu_header_shop, .headerPopupMenu .btn_menu_header_item
+, .headerPopupMenu .btn_menu_header_present,  .headerPopupMenu .btn_menu_header_change, .headerPopupMenu .btn_menu_header_idollist, .headerPopupMenu .btn_menu_header_trainer
+, .headerPopupMenu .btn_menu_header_production, .headerPopupMenu .btn_menu_header_pra, .headerPopupMenu .btn_menu_header_profile, .headerPopupMenu .btn_menu_header_favorite
+, .headerPopupMenu .btn_menu_header_memory, .headerPopupMenu .btn_menu_header_gamecenter, .headerPopupMenu .btn_menu_header_sound, .headerPopupMenu .btn_menu_header_setting
+, .headerPopupMenu .btn_menu_header_help , .headerPopupMenu .btn_menu_header_top{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/3.png') !important;
+}
+.area-frame_more_contents:before, .cmn-ui-btn_arrow_right a li{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/4.png') !important;
+}
+.btn_pager_next,.btn_pager_back {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/5.png') !important;
+}
+.index_menu_bt_01, .lesson_reward_btn, .lesson_levelup_btn, #shop_menu .item_list li .btn_area .item_buy_btn, #profile_panel .btn_area .chenge_btn
+{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/6.png') !important;
+}
+
+#head_menu .head_menu_01,#head_menu .head_menu_02, #head_menu .head_menu_03, #head_menu .head_menu_04, #head_menu .head_menu_05, #head_menu .head_menu_06,
+#popup_menu  .popup_shop_btn,#popup_menu  .popup_gacha_btn, #popup_menu .title{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/7.png') !important;
+}
+.tab_petit_deck,.tab_petit_live_deck, .tab_petit_event_deck, .petit_tab li .tab_petit_keep, .petit_tab li .tab_petit_pickup
+, .petit_tab li .tab_petit_dele, .petit_tab li .tab_petit_dress , .petit_tab li .tab_petit_deck_l, .petit_tab li .tab_petit_live_deck_l{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/8.png') !important;
+}
+ .lesson_stop_btn, .popup_menu_07,.popup_menu_08, .index_menu_bt_02, .index_visit_btn
+,.button_top_menu_visit_01,.button_top_menu_visit_02,.button_top_menu_visit_03,.index_menu_bt_04,.index_menu_bt_05,.popup_menu_mypage,
+.jsPopWindow .response_area .prof_go_btn, #shop_menu .select_area .param_switch_area .param_switch, #shop_menu .item_list li .btn_area .change_cloth_btn,
+#profile_panel .menu_tab li .tab_menu_01, #profile_panel .menu_tab li .tab_menu_02, #profile_panel .menu_tab li .tab_menu_03,
+#profile_panel .btn_area .put_back_btn, #profile_panel .btn_area .btn_current_coordinate {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/9.png') !important;
+}
+.popup_menu_01,.popup_menu_04, .popup_menu_05, .popup_menu_06, .popup_menu_09, .popup_menu_10, .popup_menu_11, .popup_menu_12{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/10.png') !important;
+}
+
+
+.index_action_btn, .index_menu_bt_03, .index_item_btn{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/11.png') !important;
+}
+
+#pex_title .title_main, #pex_title .title_lesson,#pex_title .title_board, #pex_title .title_profile, #pex_title .title_scout, #pex_title .title_union
+,#pex_title .title_help, #pex_title .title_idol_list, #pex_title .title_closet, #pex_title .title_snap, #pex_title .title_equipment_top,#pex_title .title_deck
+, #pex_title .title_gacha, #pex_title .title_shop{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/12.png') !important;
+}
+
+#top_param dt.money span, #top_param dt.point span, #petit_next_lv dt.next_lv_up span, #petit_money dl dt.money span, .scout_medal_area dt span
+,.petit_gacha .info_area .petit_gacha_m_p dl dt.money span, .petit_gacha .info_area .petit_gacha_m_p dl dt.price span{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/13.png') !important;
+}
+
+ .limited_shop.type_01:after,.limited_shop.type_02:after,.limited_shop.type_03:after, .banner_gamecenter, .banner_cartoon{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/14.png') !important;
+}
+
+
+.change-area .view-change-area .view__bg, .change-area .view-change-area .view__bg .view__inner .view__left .view__icon-selected, .change-area .view-change-area .view__bg .view__inner .view__left .view__icon-unselected
+, .change-area .view-change-area .view__bg .view__inner .view__right .view__icon-selected, .change-area .view-change-area .view__bg .view__inner .view__right .view__icon-unselected,
+.change-area .chara-change-area .cc__bg .cc__inner .cc__left .cc__icon-selected, .change-area .chara-change-area .cc__bg .cc__inner .cc__left .cc__icon-unselected,
+.change-area .chara-change-area .cc__bg .cc__inner .cc__center .cc__icon-selected, .change-area .chara-change-area .cc__bg .cc__inner .cc__center .cc__icon-unselected,
+.change-area .chara-change-area .cc__bg .cc__inner .cc__right .cc__icon-unselected, .change-area .chara-change-area .cc__bg .cc__inner .cc__right .cc__icon-selected,
+.change-area .chara-change-area.solo .cc__bg
+{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/15.png') !important;
+}
+
+
+.static_base_window .answer_area .change_big_btn, .static_base_window .answer_area .center_btn, .static_base_window .answer_area .exclude_btn, .static_base_window .answer_area .change_btn,
+.jsPopWindow .response_area .equipment_go_btn, .static_base_window .answer_area .deck_idol_change_btn, .jsPopWindow .shop_item_area .main_dress_change_btn, .base_back .select_form .form_area .right .osusume_btn,
+.switch_param_btn, .jsPopWindow .response_area .sub_item_all_off_btn, .base_back .select_form .form_area .right .view_btn, .static_base_window .answer_area .scout_btn_gray,
+.base_back .accessory_bulksale_btn, .base_back .button_all_keep, .base_back .button_all_pickup, .base_back .button_12_check, .base_back .remove_check_btn, .base_back .bulksale_btn, .base_back .button_0_check,
+.base_back .button_1_check, .base_back .button_2_check, .base_back .button_3_check, .base_back .button_4_check, .base_back .button_5_check, .base_back .button_6_check, .base_back .button_7_check
+, .base_back .button_8_check, .base_back .button_9_check, .base_back .button_10_check, .base_back .button_11_check, .jsPopWindow .response_area .cancel, .jsPopWindow .response_area .base_accessory_btn{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/16.png') !important;
+}
+
+.jsPopWindow .response_area .width_close_btn, .jsPopWindow .response_area .right_area .gradeUp, .jsPopWindow .response_area .base_accessory_continu_btn{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/17.png') !important;
+}
+

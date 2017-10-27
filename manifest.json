@@ -1,0 +1,53 @@
+{
+    "manifest_version": 2,
+
+    "name": "신데마스 메뉴 번역",
+    "description": "신데마스 메뉴 번역입니다. 패치 : 버그 픽스 및 이벤트 버튼 추가 ",
+    "version": "1.2.0",
+
+		"content_scripts": [
+				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/*"],
+				"css": ["css/custom.css"],
+				"run_at": "document_end"
+				},
+
+				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage*"],
+				"css": ["css/mainpuchi.css"]
+				},
+
+				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpetit_cg*"],
+				"css": ["css/puchiinside.css"]
+				},
+
+				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_teamtalk*"],
+				"css": ["css/talkbattle.css"]
+				},
+
+				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_teamtalk*"],
+				"css": ["css/talkbattle.css"]
+				}
+			],
+
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+		"converted_from_user_script": true,
+
+    "permissions": [
+			"activeTab",
+			"http://sp.pf.mbga.jp/12008305/*"
+    ],
+
+		"web_accessible_resources": [
+      "images/*",
+	  "css/*"
+    ]
+}
