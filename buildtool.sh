@@ -20,7 +20,10 @@ cp -R css                               $DES/css
 set +v
 echo "* Firefox Buildtool: Creating package..."
 pushd $DES/ > /dev/null
-zip ../krpatch.cinderella.girls.xpi -qr *
+# zip ../krpatch.cinderella.girls.xpi -qr *
+# web-ext lint
+web-ext sign
+mv web-ext-artifacts/*.xpi ../krpatch.cinderella.girls.xpi
 popd > /dev/null
 
 echo "* Firefox Buildtool: Done."
