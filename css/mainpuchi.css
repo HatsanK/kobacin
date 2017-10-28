@@ -3,7 +3,7 @@
 .jsPopWindow .response_area .jsEtcLessonBtn,
 .jsPopWindow .response_area .jsAgainLessonBtn
 {
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/18.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/18.png') !important;
 }
 
 body#mypage .area_main_petit .petit_idol_list .lesson_select,
@@ -12,5 +12,5 @@ body#mypage .area_main_petit .petit_idol_list .lesson_panel,
 body#mypage .area_main_petit .petit_idol_list .tap_balloon,
 body#mypage .area_main_petit .petit_idol_list .lesson_comp_lvup
 {
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/18.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/18.png') !important;
 }

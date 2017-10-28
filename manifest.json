@@ -1,9 +1,15 @@
 {
-    "manifest_version": 2,
+	"applications": {
+		"gecko": {
+			"id": "krpatch@idolmaster.cinderella.girls"
+		}
+	},
+	
+	"manifest_version": 2,
 
-    "name": "신데마스 메뉴 번역",
+    "name": "신데마스 메뉴 번역_파이어폭스",
     "description": "신데마스 메뉴 번역입니다. 패치 : 버그 픽스 및 이벤트 버튼 추가 ",
-    "version": "1.2.0",
+    "version": "1.2.0m1",
 
 		"content_scripts": [
 				{

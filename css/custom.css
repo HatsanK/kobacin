@@ -82,10 +82,10 @@
 .base_back .accessory_bulksale_btn, .base_back .button_all_keep, .base_back .button_all_pickup, .base_back .button_12_check, .base_back .remove_check_btn, .base_back .bulksale_btn, .base_back .button_0_check,
 .base_back .button_1_check, .base_back .button_2_check, .base_back .button_3_check, .base_back .button_4_check, .base_back .button_5_check, .base_back .button_6_check, .base_back .button_7_check
 , .base_back .button_8_check, .base_back .button_9_check, .base_back .button_10_check, .base_back .button_11_check, .jsPopWindow .response_area .cancel, .jsPopWindow .response_area .base_accessory_btn{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/16.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/16.png') !important;
 }
 
 .jsPopWindow .response_area .width_close_btn, .jsPopWindow .response_area .right_area .gradeUp, .jsPopWindow .response_area .base_accessory_continu_btn{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/17.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/17.png') !important;
 }
 
