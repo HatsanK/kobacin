@@ -1,0 +1,12 @@
+{
+    "addons": {
+        "krpatch@idolmaster.cinderella.girls": {
+            "updates": [
+            { "version": "1.2.0m2",
+                "update_link": "https://hatsank.github.io/kobacin/moz-ext/cg_krpatch-1.2.0m2-an+fx.xpi" },
+            { "version": "1.2.0m3",
+                "update_link": "https://hatsank.github.io/kobacin/moz-ext/cg_krpatch-1.2.0m2-an+fx.xpi" }
+            ]
+        }
+    }
+}
