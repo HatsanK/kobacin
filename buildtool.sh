@@ -23,7 +23,7 @@ pushd $DES/ > /dev/null
 # zip ../krpatch.cinderella.girls.xpi -qr *
 # web-ext lint
 web-ext sign
-mv web-ext-artifacts/*.xpi ../krpatch.cinderella.girls.xpi
+#mv web-ext-artifacts/*.xpi ../cg_krpatch.cinderella.girls.xpi
 popd > /dev/null
 
 echo "* Firefox Buildtool: Done."
