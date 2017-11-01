@@ -1,5 +1,18 @@
+<<<<<<< HEAD
 .bg_main_menu li a, .btn_change_def_atk, .btn_change_atk_def,.btn_production_status_mypage,.btn_cheer_history_status_mypage {
     background-image: url('moz-extension://__MSG_@@extension_id__/images/1.png') !important;
+=======
+.bg_main_menu li a,
+.btn_change_def_atk,
+.btn_change_atk_def,
+body#top .lesson_complete, 
+body#mypage .lesson_complete, 
+body#gacha .lesson_complete,
+.btn_production_status_mypage,
+.btn_cheer_history_status_mypage
+{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/1.png') !important;
+>>>>>>> chrome-ext
 }
 .title_icon,.user_status_list li ul, .user_status_list li.icon_00:after, .user_status_list li.icon_01:after, .user_status_list li.icon_02:after, .user_status_list li.icon_03:after, .user_status_list li.icon_04:after
 , .user_status_list li.icon_05:after, .text_tags, .bg_popup_top {
@@ -14,6 +27,10 @@
 , .headerPopupMenu .btn_menu_header_help , .headerPopupMenu .btn_menu_header_top{
     background-image: url('moz-extension://__MSG_@@extension_id__/images/3.png') !important;
 }
+ .btn_new_work_menu{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/3.png') !important;
+}
+
 .area-frame_more_contents:before, .cmn-ui-btn_arrow_right a li{
     background-image: url('moz-extension://__MSG_@@extension_id__/images/4.png') !important;
 }
@@ -76,6 +93,7 @@
 }
 
 
+<<<<<<< HEAD
 .static_base_window .answer_area .change_big_btn, .static_base_window .answer_area .center_btn, .static_base_window .answer_area .exclude_btn, .static_base_window .answer_area .change_btn,
 .jsPopWindow .response_area .equipment_go_btn, .static_base_window .answer_area .deck_idol_change_btn, .jsPopWindow .shop_item_area .main_dress_change_btn, .base_back .select_form .form_area .right .osusume_btn,
 .switch_param_btn, .jsPopWindow .response_area .sub_item_all_off_btn, .base_back .select_form .form_area .right .view_btn, .static_base_window .answer_area .scout_btn_gray,
@@ -87,5 +105,56 @@
 
 .jsPopWindow .response_area .width_close_btn, .jsPopWindow .response_area .right_area .gradeUp, .jsPopWindow .response_area .base_accessory_continu_btn{
     background-image: url('moz-extension://__MSG_@@extension_id__/images/17.png') !important;
+=======
+.static_base_window .answer_area .change_big_btn,
+.static_base_window .answer_area .center_btn, 
+.static_base_window .answer_area .exclude_btn,
+.static_base_window .answer_area .change_btn,
+.jsPopWindow .response_area .equipment_go_btn, 
+.static_base_window .answer_area .deck_idol_change_btn, 
+.jsPopWindow .shop_item_area .main_dress_change_btn, 
+.base_back .select_form .form_area .right .osusume_btn,
+.switch_param_btn,
+.jsPopWindow .response_area .sub_item_all_off_btn, 
+.base_back .select_form .form_area .right .view_btn,
+.static_base_window .answer_area .scout_btn_gray,
+.base_back .accessory_bulksale_btn, 
+.base_back .button_all_keep, 
+.base_back .button_all_pickup, 
+.base_back .button_12_check,
+.base_back .remove_check_btn, 
+.base_back .bulksale_btn, 
+.base_back .button_0_check,
+.base_back .button_1_check, 
+.base_back .button_2_check, 
+.base_back .button_3_check, 
+.base_back .button_4_check, 
+.base_back .button_5_check, 
+.base_back .button_6_check, 
+.base_back .button_7_check, 
+.base_back .button_8_check, 
+.base_back .button_9_check, 
+.base_back .button_10_check, 
+.base_back .button_11_check, 
+.jsPopWindow .response_area .cancel, 
+.jsPopWindow .response_area .base_accessory_btn, .jsPopWindow .response_area .left_area .jsNotEquipmentBtn
+{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/16.png') !important;
+}
+.static_base_window .answer_area .recommend_btn,
+.static_base_window .answer_area .recommend_2_btn,
+.static_base_window .answer_area .petit_item_all_off_btn,
+.static_base_window .answer_area .change_small_btn,
+.static_base_window .answer_area .setting_costume_btn,
+.static_base_window .answer_area .exclude_small_btn{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/16.png') !important;
 }
 
+.jsPopWindow .response_area .width_close_btn, .jsPopWindow .response_area .right_area .gradeUp, .jsPopWindow .response_area .base_accessory_continu_btn,
+ .jsPopWindow .response_area .right_area .jsEquipmentBtn{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/17.png') !important;
+>>>>>>> chrome-ext
+}
+#play_button.play_btn_df{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/23.png') !important;
+}

@@ -1,4 +1,5 @@
-.button_event_battle, .button_event_battle_1, .button_event_battle_2, .button_event_battle_3, .button_event_battle_4,
+.button_event_battle, .button_event_battle_1, .button_event_battle_2, .button_event_battle_3, .button_event_battle_4, .button_event_battle_5,
+.button_event_tutorial, .button_support_idol, .button_win_point, .button_event_unit, .button_event_trainingroom, .button_event_skill, .button_event_shop, .button_event_exchange, .button_event_hints,
 .button_event_area{
     background-image: url('moz-extension://__MSG_@@extension_id__/images/talkbattle/1.png') !important;
 }

@@ -1,15 +1,70 @@
-.jsPopWindow .response_area .right_area .jsBuyBtn, 
-#jsLessonComplete .jsEtcLessonBtnSmall, 
+.jsPopWindow .response_area .right_area .jsBuyBtn,
 #lesson_stop_comp_panel .jsEtcLessonBtnSmall,
 #jsLessonComplete .jsAgainLessonBtn,
+<<<<<<< HEAD
 #lesson_stop_comp_panel .jsAgainLessonBtn,
 #jsLessonComplete .jsToTopBtn, 
 #lesson_stop_comp_panel .jsToTopBtn{
     background-image: url('moz-extension://__MSG_@@extension_id__/images/6.png') !important;
+=======
+#lesson_stop_comp_panel .jsAgainLessonBtn, 
+#lesson_stop_comp_panel .jsToTopBtn,
+ #lesson_stop_comp_panel .jsEtcLessonBtn,
+ #jsItemPopup .jsContinuationItemUseBtn,
+ #jsItemPopup .jsUseBtn{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/6.png') !important;
+>>>>>>> chrome-ext
+}
+.petit_gacha .petit_gacha_idol_list{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/16.png') !important;
 }
 
-.jsPopWindow .response_area .left_area .jsNotBuyBtn, #lesson_stop_comp_panel .jsToTopBtn
+
+.jsPopWindow .response_area .left_area .jsNotBuyBtn, #lesson_stop_comp_panel .jsToTopBtn ,
+#jsLessonComplete .jsEtcLessonBtnSmall, 
+#jsLessonComplete .jsToTopBtn,
+.jsPopWindow .response_area .top_go_btn,
+#jsItemPopup .jsToTopBtn, 
+.selecter_bg,
+.petit_snap_tabs ul li .tab_petit_snap_idol,
+.petit_snap_tabs ul li .tab_petit_snap_bg,
+.petit_snap_tabs ul li .tab_petit_snap_cloth
 {
     background-image: url('moz-extension://__MSG_@@extension_id__/images/9.png') !important;
 }
 
+.petit_gacha .petit_gacha_once,
+ .petit_gacha .petit_gacha_1,
+ .petit_gacha .petit_gacha_2,
+ .petit_gacha .petit_gacha_3,
+ .petit_gacha .petit_gacha_4,
+ .petit_gacha .petit_gacha_5,
+ .petit_gacha .petit_gacha_6,
+ .petit_gacha .petit_gacha_7,
+ .petit_gacha .petit_gacha_8,
+ .petit_gacha .petit_gacha_9,
+ .petit_gacha .petit_gacha_10
+{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/19.png') !important;
+}
+
+.jsPopWindow .response_area .right_area .jsEquipmentBtn{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/17.png') !important;
+}
+
+#snap_main_screen .number_plate .numberMax[rel="3"],
+#snap_main_screen .number_plate .numberMax[rel="4"],
+#snap_main_screen .number_plate .numberMax[rel="5"],
+#snap_main_screen .number_plate .numberMax[rel="6"],
+#snap_main_screen #bg_title{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/21.png') !important;
+}
+.help_btn_99,
+.help_btn_01,
+.help_btn_02,
+.help_btn_03,
+.help_btn_04,
+.help_btn_05,
+.help_btn_06{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/22.png') !important;
+}
