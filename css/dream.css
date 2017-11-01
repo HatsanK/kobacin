@@ -1,6 +1,6 @@
 .btn_queststart, .btn_battle_active, .top_menu_01, .top_menu_02, .top_menu_03,
 .top_menu_05, .top_menu_06, .top_menu_07, .top_menu_08, .btn_battle_none, .fever_not_top_area, .fever_top_area{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/dream/1.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/dream/1.png') !important;
 }
 
 
@@ -19,5 +19,5 @@
 .dream_inline .btn_off,
 .dream_inline .btn_on,
 .dreamArea .recoverList .container .recoveryBtn{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/dream/2.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/dream/2.png') !important;
 }
