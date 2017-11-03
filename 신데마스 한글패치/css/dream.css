@@ -1,0 +1,23 @@
+.btn_queststart, .btn_battle_active, .top_menu_01, .top_menu_02, .top_menu_03,
+.top_menu_05, .top_menu_06, .top_menu_07, .top_menu_08, .btn_battle_none, .fever_not_top_area, .fever_top_area{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/dream/1.png') !important;
+}
+
+
+#dreamBattleButton label.button_ap_n_1,
+#dreamBattleButton label.button_ap_n_2,
+#dreamBattleButton label.button_ap_n_3,
+#dreamBattleButton label.button_ap_m_1,
+#dreamBattleButton label.button_ap_m_2,
+#dreamBattleButton label.button_ap_m_3,
+#dreamBattleButton label.button_ap_r_1,
+#dreamBattleButton label.button_ap_r_2,
+#dreamBattleButton label.button_ap_r_3,
+#dreamBattleButton label.button_ap_f_1,
+#dreamBattleButton label.button_ap_f_2,
+#dreamBattleButton label.button_ap_f_3,
+.dream_inline .btn_off,
+.dream_inline .btn_on,
+.dreamArea .recoverList .container .recoveryBtn{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/dream/2.png') !important;
+}
