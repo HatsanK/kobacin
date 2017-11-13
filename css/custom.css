@@ -100,6 +100,7 @@ body#gacha .lesson_complete,
 .jsPopWindow .response_area .sub_item_all_off_btn, 
 .base_back .select_form .form_area .right .view_btn,
 .static_base_window .answer_area .scout_btn_gray,
+.static_base_window .answer_area .scout_btn,
 .base_back .accessory_bulksale_btn, 
 .base_back .button_all_keep, 
 .base_back .button_all_pickup, 
@@ -128,14 +129,27 @@ body#gacha .lesson_complete,
 .static_base_window .answer_area .petit_item_all_off_btn,
 .static_base_window .answer_area .change_small_btn,
 .static_base_window .answer_area .setting_costume_btn,
-.static_base_window .answer_area .exclude_small_btn{
+.static_base_window .answer_area .exclude_small_btn,
+.static_base_window .answer_area .no_btn,
+.jsPopWindow .response_area .present_go_btn{
     background-image: url('chrome-extension://__MSG_@@extension_id__/images/16.png') !important;
 }
 
 .jsPopWindow .response_area .width_close_btn, .jsPopWindow .response_area .right_area .gradeUp, .jsPopWindow .response_area .base_accessory_continu_btn,
- .jsPopWindow .response_area .right_area .jsEquipmentBtn{
+ .jsPopWindow .response_area .right_area .jsEquipmentBtn,
+.static_base_window .answer_area .yes_btn,
+.jsPopWindow .response_area .continu_scout_btn{
     background-image: url('chrome-extension://__MSG_@@extension_id__/images/17.png') !important;
 }
 #play_button.play_btn_df{
     background-image: url('chrome-extension://__MSG_@@extension_id__/images/23.png') !important;
+}
+
+
+.button_energy_recovery_half,
+.button_energy_recovery_full_01,
+.button_energy_recovery_full_00,
+.button_energy_recovery_full_02
+{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/24.png') !important;
 }
