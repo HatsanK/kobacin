@@ -1,0 +1,62 @@
+.area_megaphone,
+.variety-top-button_normal,
+.variety-top-button_hard,
+.variety-top-button_veryhard,
+.variety-top-area_master_status,
+.variety-top-story_status_text_1,
+.variety-top-story_status_text_2,
+.variety-top-button_top_change,
+.cheerful_gauge_2 .cheerful_gauge_2_gauge,
+.cheerful_gauge_2,
+.next_story_reward,
+.select_difficulty_header .story_progress_area._cleared:after,
+.varietyMenu .top_menu_01,
+.varietyMenu .top_menu_02,
+.varietyMenu .top_menu_04,
+.varietyMenu .top_menu_05,
+.varietyMenu .top_menu_06,
+.varietyMenu .top_menu_07,
+.varietyMenu .top_menu_08,
+.varietyMenu .top_menu_09{
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/vari/1.png') !important;
+}
+#varietyBattleButton label[data-type='n_1'],
+#varietyBattleButton label[data-type='n_2'],
+#varietyBattleButton label[data-type='n_3'],
+#varietyBattleButton label[data-type='m_1'],
+#varietyBattleButton label[data-type='m_2'],
+#varietyBattleButton label[data-type='m_3'],
+#varietyBattleButton label[data-type='r_1'],
+#varietyBattleButton label[data-type='r_2'],
+#varietyBattleButton label[data-type='r_3'],
+#varietyBattleButton label[data-type='f_1'],
+#varietyBattleButton label[data-type='f_2'],
+#varietyBattleButton label[data-type='f_3'],
+#varietyBattleButton label[data-type='g_1'],
+#varietyBattleButton label[data-type='g_2'],
+#varietyBattleButton label[data-type='g_3'],
+.btn_cheerful_100,
+.btn_cheerful_200,
+.btn_cheerful_300,
+.cheerful_skill_1,
+.cheerful_skill_2,
+.cheerful_skill_3,
+.btn_show_variety_member,
+.cheerful_appeal,
+.cheerful_appeal .cheerful_appeal_gauge,
+.button_recover[data-type='n'],
+.button_recover[data-type='m'],
+.button_recover[data-type='r'],
+.button_recover[data-type='f'],
+.varietyUseItem .recoveryBtn{
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/vari/2.png') !important;
+}
+
+/*     시험용 + 일회용       */
+
+.select_variety_idol_navi .stage_navi_area_1_2:after{
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/vari/3.png') !important;
+}
+.select_variety_idol_navi .stage_navi_area_2_2:after{
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/vari/5.png') !important;
+}

@@ -3,9 +3,9 @@
 #jsLessonComplete .jsAgainLessonBtn,
 #lesson_stop_comp_panel .jsAgainLessonBtn, 
 #lesson_stop_comp_panel .jsToTopBtn,
-#lesson_stop_comp_panel .jsEtcLessonBtn,
-#jsItemPopup .jsContinuationItemUseBtn,
-#jsItemPopup .jsUseBtn{
+ #lesson_stop_comp_panel .jsEtcLessonBtn,
+ #jsItemPopup .jsContinuationItemUseBtn,
+ #jsItemPopup .jsUseBtn{
     background-image: url('moz-extension://__MSG_@@extension_id__/images/6.png') !important;
 }
 .petit_gacha .petit_gacha_idol_list{
