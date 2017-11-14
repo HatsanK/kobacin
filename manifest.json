@@ -43,7 +43,7 @@
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fbonus_point*"],
-				"css": ["css/stat.css"]
+				"js": ["jquery-3.2.1.min.js", "js/stat.js"]
 				}
 			],
 
@@ -58,7 +58,8 @@
     "permissions": [
 			"activeTab",
 			"http://sp.pf.mbga.jp/12008305/",
-			"http://sp.pf.mbga.jp/12008305/*"
+			"http://sp.pf.mbga.jp/12008305/*",
+			"storage"
     ],
 
 		"web_accessible_resources": [

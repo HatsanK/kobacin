@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8"> 
         <style>
+            body {
+                min-width:300px;
+            }
         </style>
+        <link rel="stylesheet" href="https://gitcdn.link/repo/Chalarangelo/mini.css/master/dist/mini-default.min.css">
+        <script src="jquery-3.2.1.min.js"></script>
         <script src="popup.js"></script>
     </head>
+
     <body>
-	This is Test Version.
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5">
+                <div><img src="icon.png"></div>
+            </div>
+            <div class="col-sm-7">
+                <div><h5><small>모바게</small>아이돌마스터<br>신데렐라 걸즈</h5></div>
+                <div><h6>한글패치 <script>document.write(chrome.runtime.getManifest().version);</script></h6></div>
+            </div>
+            <hr>
+            <div class="input-group col-sm-10">
+                <input type="checkbox" id="switch-allow_stat" tabindex="0">
+                <label for="switch-allow_stat" class="switch">공코 메뉴 활성화</label>
+            </div>
+          </div>
+        </div>
+        설정 적용시 새로고침이 필요합니다.
+        This is Test Version.
     </body>
 </html>
