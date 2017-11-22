@@ -10,7 +10,7 @@
 
     "name": "신데마스 메뉴 번역",
     "description": "신데마스 메뉴 번역입니다. 패치 : UI 한글화 패널을 추가하였습니다.",
-    "version": "1.4.0.1",
+    "version": "1.4.0.2",
 
 		"content_scripts": [
 				{
