@@ -5,7 +5,7 @@
 .button_event_battle_02,
 .button_event_battle_03,
 .button_event_battle_gray{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/royal/1.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/royal/1.png') !important;
 }
 .button_event_tutorial,
 .button_event_voltagechance,
@@ -15,7 +15,7 @@
 .button_event_shop,
 .button_event_exchange,
 .button_event_hints{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/royal/1.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/royal/1.png') !important;
 }
 
 
@@ -25,10 +25,10 @@
 .win_stage_count .icon_win_count_03_gray,
 .win_stage_count .icon_win_count_04,
 .win_stage_count .icon_win_count_04_gray{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/royal/2.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/royal/2.png') !important;
 }
 .royaleUseItem .recoveryBtn{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/royal/3.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/royal/3.png') !important;
 }
 
 .royale_bp_panel_area .royale_bp_panel form input[type="submit"].button_bp_r_1,
@@ -41,33 +41,33 @@
 .royale_bp_panel_area .royale_bp_panel form input[type="submit"].button_bp_f_3,
 .royale_bp_panel_area .royale_bp_panel form input[type="submit"].button_bp_f_4,
 .royale_bp_panel_area .royale_bp_panel form input[type="submit"].button_bp_f_5{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/royal/4.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/royal/4.png') !important;
 }
 
 .voltage_gauge_area.mini{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/royal/vol_mini_em.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/royal/vol_mini_em.png') !important;
 }
 .voltage_gauge_area.mini .current_voltage span{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/royal/vol_mini_fu.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/royal/vol_mini_fu.png') !important;
 }
 
 .voltage_gauge_area.mini._max{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/royal/vol_mini_max.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/royal/vol_mini_max.png') !important;
 }
 
 .voltage_gauge_area{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/royal/vol_em.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/royal/vol_em.png') !important;
 }
 
 .voltage_gauge_area .current_voltage span{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/royal/vol_fu.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/royal/vol_fu.png') !important;
 }
 
 .voltage_gauge_area._max{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/royal/vol_max.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/royal/vol_max.png') !important;
 }
 
 .button_stamina_recovery_half,
 .button_stamina_recovery_full_01{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/24.png') !important;
+    background-image: url('moz-extension://__MSG_@@extension_id__/images/24.png') !important;
 }
