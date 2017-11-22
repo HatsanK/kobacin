@@ -8,14 +8,11 @@ mkdir -p $DES
 
 echo "* Firefox Buildtool: Copy Files"
 
-cp    icon.png                          $DES/
-cp    popup.js                          $DES/
-cp    popup.html                        $DES/
 cp    manifest.json                     $DES/
 
 cp -R images                            $DES/images
 cp -R css                               $DES/css
-
+cp -R js                                $DES/js
 
 set +v
 echo "* Firefox Buildtool: Creating package..."
