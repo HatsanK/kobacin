@@ -44,4 +44,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	});
 
 	update_buttons_css();
+
+	document.getElementById('ext-version').innerText += " " + browser.runtime.getManifest().version;
 });
