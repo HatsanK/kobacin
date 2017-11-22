@@ -9,8 +9,8 @@
 	"manifest_version": 2,
 
     "name": "신데마스 메뉴 번역",
-    "description": "신데마스 메뉴 번역입니다. 패치 : 이벤트 버튼 추가 및 미구현 버튼 추가",
-    "version": "1.2.3.1",
+    "description": "신데마스 메뉴 번역입니다. 패치 : UI 한글화 패널을 추가하였습니다.",
+    "version": "1.4.0.1",
 
 		"content_scripts": [
 				{
@@ -24,7 +24,17 @@
 				},
 
 				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage*"],
+				"css": ["css/mainpuchi.css"]
+				},
+
+				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpetit_cg*"],
+				"css": ["css/puchiinside.css"]
+				},
+
+				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpetit_cg*"],
 				"css": ["css/puchiinside.css"]
 				},
 
@@ -50,7 +60,12 @@
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fbonus_point*"],
-				"css": ["css/stat.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/stat.js"]
+				},
+
+				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fbonus_point*"],
+				"js": ["js/jquery-3.2.1.min.js", "js/stat.js"]
 				},
 
 				{
@@ -61,25 +76,47 @@
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_variety*"],
 				"css": ["css/vari.css"]
+				},
+
+				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_pmf*"],
+				"css": ["css/pmf.css"]
+				},
+
+				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_pmf*"],
+				"css": ["css/pmf.css"]
+				},
+
+				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royal*"],
+				"css": ["css/royal.css"]
+				},
+
+				{
+				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royal*"],
+				"css": ["css/royal.css"]
 				}
 			],
 
 
     "browser_action": {
-        "default_icon": "icon.png",
-        "default_popup": "popup.html"
+        "default_icon": "images/icon.png",
+        "default_popup": "js/popup.html"
     },
 
 		"converted_from_user_script": true,
 
     "permissions": [
 			"activeTab",
+			"storage",
 			"http://sp.pf.mbga.jp/12008305/",
 			"http://sp.pf.mbga.jp/12008305/*"
     ],
 
 		"web_accessible_resources": [
 			"images/*",
+			"contentSettings",
 			"storage",
 			"css/*"
     ]
