@@ -1,0 +1,32 @@
+.button_top_unit,
+.button_top_tutorial,
+.button_top_schedule,
+.button_top_trainingroom,
+.button_top_exchange,
+.button_top_help,
+.pmf_confirmBt a.prepare{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/pmf/1.png') !important;
+}
+
+.pmf_use_energy .energy_btn[data-type='1601'],
+.button_battle_enacha,
+.button_battle_enacha_gray,
+.button_charge_01,
+.button_charge_02,
+.button_charge_03,
+.button_charge_gray,
+.button_battle_enacha_charge,
+.button_charge_hightension{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/pmf/2.png') !important;
+}
+
+.pmf_use_energy .energy_btn[data-type='15'],
+.pmf_use_energy .energy_btn[data-type='9'],
+.pmf_use_energy .energy_btn[data-type='2']{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/25.png') !important;
+}
+
+.button_stamina_recovery_half,
+.button_stamina_recovery_full_01{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/24.png') !important;
+}
