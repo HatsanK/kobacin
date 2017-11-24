@@ -31,18 +31,18 @@ function update_buttons_css ()
 /*  UI ON / OFF 관리   */
 function disable_ui ()
 {
-	chrome.storage.sync.set({ 'disable_ui': true });
+	browser.storage.sync.set({ 'disable_ui': true });
 }
 
 
 function enable_ui ()
 {
-	chrome.storage.sync.remove('disable_ui');
+	browser.storage.sync.remove('disable_ui');
 }
 
 function update_buttons_ui ()
 {
-	chrome.storage.sync.get('disable_ui', function (items)
+	browser.storage.sync.get('disable_ui', function (items)
 	{
 		var button_ui_disable = document.getElementById('button-ui-disable');
 		var button_ui_enable  = document.getElementById('button-ui-enable');
