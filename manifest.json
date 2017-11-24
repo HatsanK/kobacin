@@ -9,53 +9,53 @@
 	"manifest_version": 2,
 
     "name": "신데마스 메뉴 번역",
-    "description": "신데마스 메뉴 번역입니다. 패치 : UI 한글화 패널을 추가하였습니다.",
-    "version": "1.4.0.3",
+    "description": "신데마스 메뉴 번역입니다. 패치 : UI 한글화 패널을 추가하였습니다. UI On/Off 기능을 추가하였습니다. 공코모드시 공코가 안찍히는 오류를 수정하였습니다.",
+    "version": "1.4.1.0",
 
 		"content_scripts": [
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/*"],
-				"css": ["css/custom.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/custom.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage*"],
-				"css": ["css/mainpuchi.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/mainpuchi.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fmypage*"],
-				"css": ["css/mainpuchi.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/mainpuchi.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpetit_cg*"],
-				"css": ["css/puchiinside.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/puchiinside.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fpetit_cg*"],
-				"css": ["css/puchiinside.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/puchiinside.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_teamtalk*"],
-				"css": ["css/talkbattle.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/talkbattle.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_teamtalk*"],
-				"css": ["css/talkbattle.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/talkbattle.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_dream*"],
-				"css": ["css/dream.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/dream.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_dream*"],
-				"css": ["css/dream.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/dream.js"]
 				},
 
 				{
@@ -70,32 +70,32 @@
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_variety*"],
-				"css": ["css/vari.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/vari.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_variety*"],
-				"css": ["css/vari.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/vari.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_pmf*"],
-				"css": ["css/pmf.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/pmf.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_pmf*"],
-				"css": ["css/pmf.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/pmf.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royal*"],
-				"css": ["css/royal.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/royal.js"]
 				},
 
 				{
 				"matches": ["http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_royal*"],
-				"css": ["css/royal.css"]
+				"js": ["js/jquery-3.2.1.min.js", "js/royal.js"]
 				}
 			],
 
