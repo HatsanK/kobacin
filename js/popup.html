@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <style>
+            body {
+                min-width:300px;
+            }
+        </style>
+        <link href="../css/mini-default.min.css" rel="stylesheet" type="text/css" />
+        <link href="../css/ez.css" rel="stylesheet" type="text/css" />
+        <link href="../css/main.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="mustache.js"></script>
+        <script type="text/javascript" src="templates.js"></script>
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="popup.js"></script>
+        <script src="stat.js"></script>
+        <script src="custom.js"></script>
+        <script src="dream.js"></script>
+        <script src="pmf.js"></script>
+        <script src="puchiinside.js"></script>
+        <script src="mainpuchi.js"></script>
+        <script src="talkbattle.js"></script>
+        <script src="vari.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5">
+                <div><img src="../images/icon.png"></div>
+            </div>
+            <div class="col-sm-7">
+                <div><h5><small>모바게</small>아이돌마스터<br>신데렐라 걸즈</h5></div>
+                <div><h6 id="ext-version">한글패치 </h6></div>
+            </div>
+        </div>
+    </div>
+	        <div id="content">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">UI 한글화 세팅 패널</div>
+                <div class="panel-body">
+                    <div class="ez-box row">
+                        <div class="ez-fl key">스테충 모드:</div>
+                        <div class="ez-fr value">
+                            <div id="button-css-enable" class="switch enable">ON</div>
+                            <div id="button-css-disable" class="switch disable">OFF</div>
+                        </div>
+                    </div>
+					
+					<div class="ez-box row">
+                        <div class="ez-fl key">UI On/Off:</div>
+                        <div class="ez-fr value">
+                            <div id="button-ui-enable" class="switch enable">ON</div>
+                            <div id="button-ui-disable" class="switch disable">OFF</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        설정 적용시 새로고침이 필요합니다.<br>
+		※스테충 모드 OFF시 공코모드로 변합니다!<br>
+		팁 ) 공코 모드 킬시 머리카락이 점점 빠짐
+    </body>
+</html>

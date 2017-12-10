@@ -1,0 +1,8 @@
+a[name="tab_1"] {
+	visibility: hidden !important;
+}
+
+a[name="tab_3"] {
+	display: none !important;
+}
+
